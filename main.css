@@ -1,5 +1,5 @@
 /**
- * @name ClearDiscordV2
+ * @name DiscordClear
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -12,10 +12,10 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #D00F66;
-  --hover-color: #1e63b3;
-  --success-color: #43b581;
-  --danger-color: #982929;
+  --main-color: #980235;
+  --hover-color: #8F08A7;
+  --success-color: #30E729;
+  --danger-color: #C31313;
   --url-color: #03A9F4;
   --background-image: url('https://images.hdqwalls.com/wallpapers/astronaut-black-hole-galaxy-space-4k-a0.jpg');
   --background-shading: 100%;
@@ -29,7 +29,7 @@
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgb(31,2,9,0.6);
+  --background-overlay: rgb(69,5,36,0.6);
   --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
@@ -37,7 +37,7 @@
   --user-popout-attachment: fixed;
   --user-popout-brightness: 0%;
   --user-popout-contrast: 100%;
-  --user-popout-saturation: 298%;
+  --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 0px;
@@ -48,22 +48,22 @@
   --user-modal-attachment: fixed;
   --user-modal-brightness: 0%;
   --user-modal-contrast: 100%;
-  --user-modal-saturation: 300%;
+  --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 0px;
+  --user-modal-blur: 3px;
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #FAFAFA;
-  --channel-color: rgb(45,194,180,1);
-  --muted-color: rgb(143,137,144,1);
-  --online-color: #43b581;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
+  --channel-unread: #ECE9EA;
+  --channel-color: rgb(36,255,235,1);
+  --muted-color: rgb(156,153,153,1);
+  --online-color: #53DC9D;
+  --idle-color: #FFA91B;
+  --dnd-color: #D61919;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: Whitney;
+  --main-font: 0;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
@@ -86,3 +86,5 @@
 }
 
 /* Any custom CSS below here */
+
+
